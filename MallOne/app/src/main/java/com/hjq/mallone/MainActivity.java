@@ -5,12 +5,13 @@ import android.os.Bundle;
 
 import com.hjq.mallone.base.activities.ProxyActivity;
 import com.hjq.mallone.base.delegates.LatteDelegate;
+import com.hjq.mallone.pro.EcBottomDelegate;
 
 public class MainActivity extends ProxyActivity {
 
     @Override
     public LatteDelegate setRootDelegate() {
-        return new MainDelegate();
+        return new EcBottomDelegate();
     }
 
     @Override
