@@ -1,16 +1,15 @@
-package com.hjq.mallone.pro.sort.view;
+package com.hjq.mallone.pro.main.persional.setting.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import com.hjq.mallone.R;
-import com.hjq.mallone.base.bottom.BottomItemDelegate;
+import com.hjq.mallone.base.delegates.LatteDelegate;
 
-public class SortDelegate extends BottomItemDelegate {
+public class SettingDelegate extends LatteDelegate {
     @Override
     public Object setLayout() {
-        return R.layout.delegate_sort;
+        return null;
     }
 
     @Override

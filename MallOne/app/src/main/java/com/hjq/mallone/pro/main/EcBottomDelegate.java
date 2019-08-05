@@ -1,4 +1,4 @@
-package com.hjq.mallone.pro;
+package com.hjq.mallone.pro.main;
 
 import android.graphics.Color;
 
@@ -9,8 +9,8 @@ import com.hjq.mallone.base.bottom.BottomTabBean;
 import com.hjq.mallone.base.bottom.ItemBuilder;
 import com.hjq.mallone.pro.discover.view.DiscoverDelegate;
 import com.hjq.mallone.pro.index.view.IndexDelegate;
-import com.hjq.mallone.pro.persional.view.PersionalDelegate;
-import com.hjq.mallone.pro.sort.view.SortDelegate;
+import com.hjq.mallone.pro.main.persional.view.PersionalDelegate;
+import com.hjq.mallone.pro.main.sort.view.SortDelegate;
 
 import java.util.LinkedHashMap;
 
